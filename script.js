@@ -152,6 +152,29 @@ const pokemonInfo = [
     {sprite:'<img src="pokedex/sprites-only/0151 sp.png">', number: '#151', pokemonName:'Mew', type1:'Psychic', type2:''},
 ]
 
+// const htmlTemplate = []
+// const $list = document.getElementById('pokemon-container')
+
+// for (const pokemon of pokemonInfo) {
+//     htmlTemplate.push(
+//         `
+//         <div id="pokemon-container">
+//             <div class="image-container">
+//                 <a href="pokemon-page.html">${pokemon.sprite}</a>
+//             </div>
+//             <div class="info-container">
+//                 <h6>${pokemon.number}</h6>
+//                 <a href="pokemon-page.html"><h2>${pokemon.pokemonName}</h2></a>
+//                 <h6 class="type-1">${pokemon.type1}</h6>
+//                 <h6 class="type-2">${pokemon.type2}</h6>
+//             </div>
+//         </div>
+//     `
+//     )
+// }
+
+// $list.innerHTML = htmlTemplate.join('')
+
 const htmlTemplate = []
 const $list = document.getElementById('pokemon-container')
 
@@ -159,14 +182,16 @@ for (const pokemon of pokemonInfo) {
     htmlTemplate.push(
         `
         <div id="pokemon-container">
-            <div class="image-container">
-                <a href="pokemon-page.html">${pokemon.sprite}</a>
-            </div>
-            <div class="info-container">
-                <h6>${pokemon.number}</h6>
-                <a href="pokemon-page.html"><h2>${pokemon.pokemonName}</h2></a>
-                <h6 class="type-1">${pokemon.type1}</h6>
-                <h6 class="type-2">${pokemon.type2}</h6>
+            <div class="pokemon-card">
+                <div class="image-container">
+                    <a href="pokemon-page.html">${pokemon.sprite}</a>
+                </div>
+                <div class="info-container">
+                    <h6>${pokemon.number}</h6>
+                    <a href="pokemon-page.html"><h2>${pokemon.pokemonName}</h2></a>
+                    <h6 class="type-1">${pokemon.type1}</h6>
+                    <h6 class="type-2">${pokemon.type2}</h6>
+                </div>
             </div>
         </div>
     `
