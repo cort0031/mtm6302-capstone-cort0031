@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'goodbrush';
+    src: url(fonts/goodbrush.ttf);
+}
+nav{
+    background-color: black;
+}
+
+h1{
+    font-family: goodbrush;
+    color: #FFE600;
+    background-color: black;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 0px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.project-info {
+    background-color: #BFBFBF;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    max-width: 300px;
+}
+
+#pokemon-container{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    color: #707070;
+}
+
+a:link {
+    text-decoration: none;
+    color: #707070;
+
+}
+a:visited {
+    text-decoration: none;
+    color: #707070;
+    
+}
+
+#pokemon-container h2,h6{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+.image-container {
+    background-color: #BFBFBF;
+    width: 100px;
+    height: 100px;
+}
+.image-container img {
+    height: 100px;
+    width: 100px;
+}
+
+/* pokedex entry styles */
+
+.pokemon-id{
+    margin: auto;
+    text-align: center;
+}
+.artwork{
+    background-color: #BFBFBF;
+    width: 300px;
+    height: 300px;
+
+}
+.artwork img {
+    width: 300px;
+}
+
+.catch {
+    margin: auto;
+    max-width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.types-entry{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    max-width: 170px;
+}
+
+.species{
+    background-color: #BFBFBF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    max-width: 300px;
+}
+
+.species h3{
+    color: white;
+}
+
+.stats{
+    background-color: #BFBFBF;
+    margin: auto;
+    max-width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stats h3{
+    padding-left: 15px;
+
+}
+
+.stats img{
+    margin: auto;
+    max-width: 280px;
+    padding-left: 15px;
+}
+
+.moves{
+    background-color: #BFBFBF;
+    margin: auto;
+    max-width: 300px;
+}
+
+.moves h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.moves ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.moves li{
+    padding: 3px;
+}
+
+.sprite {
+    background-color: white;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+}
+
+.sprite img{
+    margin: auto;
+    padding-top: 15px;
+    
+}
+
+.evolution-card{
+    text-align: center;
+    background-color: #BFBFBF;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+}
+
