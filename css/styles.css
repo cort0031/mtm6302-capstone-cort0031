@@ -79,6 +79,18 @@ a:visited {
     width: 300px;
 }
 
+.button-wrapper {
+    margin: auto;
+    text-align: center;
+    max-width: 350px;
+    padding: 30px;
+}
+
+.button-wrapper input{
+    margin: auto;
+    text-align: center;
+}
+
 .catch {
     margin: auto;
     max-width: 150px;
@@ -256,4 +268,3 @@ footer {
 
     
 }
-

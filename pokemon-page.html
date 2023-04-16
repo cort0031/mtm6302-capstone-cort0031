@@ -24,7 +24,7 @@
 
         <div class="pokemon-id">
             <h2 class="pokedex-number">#001</h2>
-            <h2 class="pokemon-name">BULBASAUR</p>
+            <h2 class="pokemon-name">BULBASAUR</h2>
         </div>
 
         <div class="artwork mx-auto">
@@ -39,10 +39,18 @@
         <div class="pokedex-description px-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et sapiente, enim dolorem quam ipsam consectetur eveniet.</p>
         </div>
-        
-        <div class="catch">
-            <button type="button" class="btn btn-secondary">Click to catch</button>
+
+        <!-- Switch button to catch -->
+        <div class="button-wrapper align">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Click to catch</label>
+            </div>
         </div>
+        
+        <!-- <div class="catch">
+            <button type="button" class="btn btn-secondary">Click to catch</button>
+        </div> -->
 
         <div class="species container text-center">
             <div class="row row-cols-2">
@@ -93,8 +101,8 @@
             <div class="speed">
                 <div class="max-speed"></div>
                 <div class="current-speed"></div>
-                <h4>Speed</h4> -->
-            </div>
+                <h4>Speed</h4>
+            </div> -->
         </div>
 
         <div class="moves">
@@ -167,7 +175,9 @@
     <!-- bootstrap and my own script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="dexinfo.js"></script> -->
+    <script src="localstorage.js"></script>
     
 </body>
 </html>
