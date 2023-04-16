@@ -29,8 +29,3 @@ if(catchedMode == 'true'){
 
 colorMode()
 
-// if(localStorage.getItem('catchedMode') == 'true'){
-//     document.querySelector('html').setAttribute('data-bs-theme', 'dark')
-// } else {
-//     document.querySelector('html').setAttribute('data-bs-theme', 'light')
-// }
